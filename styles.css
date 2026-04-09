@@ -1,0 +1,59 @@
+* {
+    background-color: #FFD8A1;
+    color: #806E55;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+section {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.info-section {
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 60%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .main {
+    font-size: 26px;
+    font-weight: bold;
+    color: #55432B;
+}
+
+i:hover {
+    transition: 1s;
+    color: #55432B;
+}
+
+@media (max-width: 768px) {
+    section {
+        height: 90vh;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .info-section {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+}
